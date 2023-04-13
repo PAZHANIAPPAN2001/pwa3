@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=poppins');
+
+@media screen and (max-width: 500px) {
+	.navbar a {
+	  float: none;
+	  display: block;
+	}
+  }
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;	
+}
+h1{
+	font-style: normal;
+	color: orangered;
+	font-size: 50px;
+	
+}
+
+.navbar {
+	width: 100%;
+	background-color: rgb(65, 255, 245);
+	overflow: auto;
+  }
+  
+  .navbar a {
+	float: right;
+	padding: 15px;
+	color: rgb(255, 0, 0);
+	text-decoration: none;
+	font-size: 17px;
+  }
+  
+  .navbar a:hover {
+	background-color: rgb(4, 255, 0);
+  }
+  
+  .active {
+	background-color: #2ef9f9;
+  }
+  
+ 
+  .logo-img{
+	height: 50px;
+	width: 70px;
+	
+  }
+p{
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 20px;
+	text-align: justify;
+	padding-left: 60pt;
+  	padding-right: 60pt;
+	
+}
+h2{
+	padding-left: 60pt;
+	padding-right: 60pt;
+}
+.table{
+	padding-left: 60pt;
+	padding-right: 60pt;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 20px;
+}
+
+footer{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: green;
+    height: auto;
+    width: 100vw;
+    padding-top: 10px;
+	padding-bottom: 10px;
+    color: #fff;
+	
+}
+.footer-content{
+	padding: auto;
+	color: white;
+}
+.contact{
+	text-align: center;
+}
